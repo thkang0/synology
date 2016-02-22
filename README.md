@@ -37,6 +37,7 @@
    - Muxes -> Add : 아래 숫자의 주파수, VSB/8로 생성 (서울/경기 지역 해당)
 
         A 267012500 8VSB #GMTV, 쿠키건강TV, noll TV
+
         A 291012500 8VSB #JTBC3, SPOTV+, Etn, GMTV, 쿠키건강TV, nollTV
         A 297012500 8VSB #리빙TV, 어린이TV, EBS+2, 재능잉글리쉬, 하이라이트TV, FunTV
         A 303012500 8VSB #재능잉글리쉬, 하이라이트TV, FunTV, 리빙TV, 어린이TV, EBS+2
