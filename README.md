@@ -21,9 +21,9 @@
 3. root계정으로 접속하여 chroot /usr/local/debian-chroot/var/chroottarget /bin/bash 실행
 4. apt-get update; apt-get install rtmpdump libav-tools
 5. debian chroot를 나간 후 디렉토리 마운트
-   a. 시놀로지의 EBS 디렉토리로 마운트 할 디렉토리 작성
+   - 시놀로지의 EBS 디렉토리로 마운트 할 디렉토리 작성
        mkdir /usr/local/debian-chroot/var/chroottarget/mnt/public
-   b. 마운트 
+   - 마운트 
        mount /volume1/EBS /usr/local/debian-chroot/var/chroottarget/mnt/public
 6. EBS 디렉토리에 ebs_record.sh re-index.sh schedule_record.sh 파일 복사 (실행 권환 확인)
 7. 제어판 작업 스케쥴러에서 해당되는 라디오 시간에 맞추어 schedule_record.sh 스크립트 수행 (7일이 지난 데이터는 삭제 됨)
@@ -33,8 +33,9 @@
 # tvheadend : http://syno.dierkse.nl
 1. EPG 등록 : https://nas.moe/archives/1010
 2. 채널 등록 : https://nas.moe/archives/858
-   a. DVB Inputs -> Networks -> Add ATSC 한 후 네트워크를 생성
-   b. Muxes -> Add : 아래 숫자의 주파수, VSB/8로 생성 (서울/경기 지역 해당)
+   - DVB Inputs -> Networks -> Add ATSC 한 후 네트워크를 생성
+   - Muxes -> Add : 아래 숫자의 주파수, VSB/8로 생성 (서울/경기 지역 해당)
+
         #30
         A 261012500 8VSB
         A 267012500 8VSB #GMTV, 쿠키건강TV, noll TV
@@ -99,5 +100,5 @@
    cd  /volume1/@appstore/tvheadend-4.0/var
    tar czvf tvheadend_backup_0201.tar.gz channel/ epggrab/ input/        
 4. 맥에서 VLC로 연동
-   a. copy libhtsp_plugin.dylib to vlc application directory (Contents -> MacOS -> plugins)
-   b. 설정 -> 모두 보기 -> 재생목록 -> 서비스 검색 -> HTSP Protocol : 서버 ip와 계정, 비번만 넣어주면 됨
+   - copy libhtsp_plugin.dylib to vlc application directory (Contents -> MacOS -> plugins)
+   - 설정 -> 모두 보기 -> 재생목록 -> 서비스 검색 -> HTSP Protocol : 서버 ip와 계정, 비번만 넣어주면 됨
