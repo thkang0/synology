@@ -36,29 +36,20 @@
    - DVB Inputs -> Networks -> Add ATSC 한 후 네트워크를 생성
    - Muxes -> Add : 아래 숫자의 주파수, VSB/8로 생성 (서울/경기 지역 해당)
 
-        #30
-        A 261012500 8VSB
         A 267012500 8VSB #GMTV, 쿠키건강TV, noll TV
-        A 273012500 8VSB
-        A 279012500 8VSB
-        A 285012500 8VSB
         A 291012500 8VSB #JTBC3, SPOTV+, Etn, GMTV, 쿠키건강TV, nollTV
         A 297012500 8VSB #리빙TV, 어린이TV, EBS+2, 재능잉글리쉬, 하이라이트TV, FunTV
         A 303012500 8VSB #재능잉글리쉬, 하이라이트TV, FunTV, 리빙TV, 어린이TV, EBS+2
         A 309012500 8VSB #인디필름, CNN, NHK
         A 315012500 8VSB #채널J, GTV
-        #40
         A 321012500 8VSB #CNTV, SBS FunE
-        A 327012500 8VSB
         A 333025000 8VSB #DramaH
-        A 339012500 8VSB
         A 345012500 8VSB #I.Net, 챔프, 리얼TV
         A 351012500 8VSB #국회방송, CJ오쇼핑
         A 357012500 8VSB #NS홈쇼핑, 현대홈쇼핑
         A 363012500 8VSB #GS홈쇼핑, 롯데홈쇼핑
         A 369012500 8VSB #MBN, JTBC
         A 375012500 8VSB #홈엔쇼핑, TV조선
-        #50
         A 381012500 8VSB #채널A, 뉴스Y
         A 387012500 8VSB #TVN, YTN
         A 393012500 8VSB #OCN, CGV
@@ -69,8 +60,6 @@
         A 423000000 8VSB #드라맥스, Fox
         A 429000000 8VSB #MBC에브리원, KBS Joy
         A 435000000 8VSB #E채널, Q티비
-        #60
-        A 441000000 8VSB
         A 447000000 8VSB #TLC, MBC뮤직
         A 453000000 8VSB #Mnet, KBS스포츠
         A 459000000 8VSB #MBC, SBS스포츠
@@ -80,8 +69,6 @@
         A 483000000 8VSB #OnStyle, HD디스커버리
         A 489000000 8VSB #TVB, CMB
         A 495000000 8VSB #육아, 코미디TV, OBS
-        #70
-        A 501000000 8VSB
         A 507000000 8VSB #투니버스, 재능TV, 에듀키즈
         A 513000000 8VSB #애니맥스, 카툰네트워크, 토마토TV
         A 519000000 8VSB # EBS+1, 애니박스, 한국경제TV
@@ -91,7 +78,6 @@
         A 543000000 8VSB #BTN & C'Time & OUN
         A 549000000 8VSB #KTV & Egde TV & M Mondey
         A 555000000 8VSB #KBS2
-        #80
         A 561000000 8VSB #EBS
         A 567000000 8VSB #MBC
         A 573000000 8VSB #KBS1
