@@ -88,3 +88,7 @@
 4. 맥에서 VLC로 연동
    - copy libhtsp_plugin.dylib to vlc application directory (Contents -> MacOS -> plugins)
    - 설정 -> 모두 보기 -> 재생목록 -> 서비스 검색 -> HTSP Protocol : 서버 ip와 계정, 비번만 넣어주면 됨
+5. Plex plugin
+   - https://github.com/axfree/TvplexendChannel.bundle
+   - plugin 위치 : ~/Library/Application Support/Plex Media Server/Plug-ins
+   - log 위치 : ~/Library/Logs
