@@ -36,53 +36,52 @@
    - DVB Inputs -> Networks -> Add ATSC 한 후 네트워크를 생성
    - Muxes -> Add : 아래 숫자의 주파수, VSB/8로 생성 (서울/경기 지역 해당)
 
-        A 267012500 8VSB #GMTV, 쿠키건강TV, noll TV
-
-        A 291012500 8VSB #JTBC3, SPOTV+, Etn, GMTV, 쿠키건강TV, nollTV
-        A 297012500 8VSB #리빙TV, 어린이TV, EBS+2, 재능잉글리쉬, 하이라이트TV, FunTV
-        A 303012500 8VSB #재능잉글리쉬, 하이라이트TV, FunTV, 리빙TV, 어린이TV, EBS+2
-        A 309012500 8VSB #인디필름, CNN, NHK
-        A 315012500 8VSB #채널J, GTV
-        A 321012500 8VSB #CNTV, SBS FunE
-        A 333025000 8VSB #DramaH
-        A 345012500 8VSB #I.Net, 챔프, 리얼TV
-        A 351012500 8VSB #국회방송, CJ오쇼핑
-        A 357012500 8VSB #NS홈쇼핑, 현대홈쇼핑
-        A 363012500 8VSB #GS홈쇼핑, 롯데홈쇼핑
-        A 369012500 8VSB #MBN, JTBC
-        A 375012500 8VSB #홈엔쇼핑, TV조선
-        A 381012500 8VSB #채널A, 뉴스Y
-        A 387012500 8VSB #TVN, YTN
-        A 393012500 8VSB #OCN, CGV
-        A 399012500 8VSB #드라마큐브, SBS드라마
-        A 405000000 8VSB #아임쇼핑, 스크린
-        A 411000000 8VSB #KBS드라마, MBC드라마
-        A 417000000 8VSB #AXN, XTM
-        A 423000000 8VSB #드라맥스, Fox
-        A 429000000 8VSB #MBC에브리원, KBS Joy
-        A 435000000 8VSB #E채널, Q티비
-        A 447000000 8VSB #TLC, MBC뮤직
-        A 453000000 8VSB #Mnet, KBS스포츠
-        A 459000000 8VSB #MBC, SBS스포츠
-        A 465000000 8VSB #MBC퀸, KBS W
-        A 471000000 8VSB #SuperAction, JTBC 골프
-        A 477000000 8VSB #아리랑TV, SBS골프
-        A 483000000 8VSB #OnStyle, HD디스커버리
-        A 489000000 8VSB #TVB, CMB
-        A 495000000 8VSB #육아, 코미디TV, OBS
-        A 507000000 8VSB #투니버스, 재능TV, 에듀키즈
-        A 513000000 8VSB #애니맥스, 카툰네트워크, 토마토TV
-        A 519000000 8VSB # EBS+1, 애니박스, 한국경제TV
-        A 525000000 8VSB #서울경제 & 이데일리 & MTN
-        A 531000000 8VSB #SBS CNBC & 복지TV & 아시아경제
-        A 537000000 8VSB #CBS & CTS & PBC
-        A 543000000 8VSB #BTN & C'Time & OUN
-        A 549000000 8VSB #KTV & Egde TV & M Mondey
-        A 555000000 8VSB #KBS2
-        A 561000000 8VSB #EBS
-        A 567000000 8VSB #MBC
-        A 573000000 8VSB #KBS1
-        A 579000000 8VSB #SBS
+        * 267012500 8VSB #GMTV, 쿠키건강TV, noll TV
+        * 291012500 8VSB #JTBC3, SPOTV+, Etn, GMTV, 쿠키건강TV, nollTV
+        * 297012500 8VSB #리빙TV, 어린이TV, EBS+2, 재능잉글리쉬, 하이라이트TV, FunTV
+        * 303012500 8VSB #재능잉글리쉬, 하이라이트TV, FunTV, 리빙TV, 어린이TV, EBS+2
+        * 309012500 8VSB #인디필름, CNN, NHK
+        * 315012500 8VSB #채널J, GTV
+        * 321012500 8VSB #CNTV, SBS FunE
+        * 333025000 8VSB #DramaH
+        * 345012500 8VSB #I.Net, 챔프, 리얼TV
+        * 351012500 8VSB #국회방송, CJ오쇼핑
+        * 357012500 8VSB #NS홈쇼핑, 현대홈쇼핑
+        * 363012500 8VSB #GS홈쇼핑, 롯데홈쇼핑
+        * 369012500 8VSB #MBN, JTBC
+        * 375012500 8VSB #홈엔쇼핑, TV조선
+        * 381012500 8VSB #채널A, 뉴스Y
+        * 387012500 8VSB #TVN, YTN
+        * 393012500 8VSB #OCN, CGV
+        * 399012500 8VSB #드라마큐브, SBS드라마
+        * 405000000 8VSB #아임쇼핑, 스크린
+        * 411000000 8VSB #KBS드라마, MBC드라마
+        * 417000000 8VSB #AXN, XTM
+        * 423000000 8VSB #드라맥스, Fox
+        * 429000000 8VSB #MBC에브리원, KBS Joy
+        * 435000000 8VSB #E채널, Q티비
+        * 447000000 8VSB #TLC, MBC뮤직
+        * 453000000 8VSB #Mnet, KBS스포츠
+        * 459000000 8VSB #MBC, SBS스포츠
+        * 465000000 8VSB #MBC퀸, KBS W
+        * 471000000 8VSB #SuperAction, JTBC 골프
+        * 477000000 8VSB #아리랑TV, SBS골프
+        * 483000000 8VSB #OnStyle, HD디스커버리
+        * 489000000 8VSB #TVB, CMB
+        * 495000000 8VSB #육아, 코미디TV, OBS
+        * 507000000 8VSB #투니버스, 재능TV, 에듀키즈
+        * 513000000 8VSB #애니맥스, 카툰네트워크, 토마토TV
+        * 519000000 8VSB # EBS+1, 애니박스, 한국경제TV
+        * 525000000 8VSB #서울경제 & 이데일리 & MTN
+        * 531000000 8VSB #SBS CNBC & 복지TV & 아시아경제
+        * 537000000 8VSB #CBS & CTS & PBC
+        * 543000000 8VSB #BTN & C'Time & OUN
+        * 549000000 8VSB #KTV & Egde TV & M Mondey
+        * 555000000 8VSB #KBS2
+        * 561000000 8VSB #EBS
+        * 567000000 8VSB #MBC
+        * 573000000 8VSB #KBS1
+        * 579000000 8VSB #SBS
 3. 백업
    cd  /volume1/@appstore/tvheadend-4.0/var
    tar czvf tvheadend_backup_0201.tar.gz channel/ epggrab/ input/        
